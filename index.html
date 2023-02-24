@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soft-digitals</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="Icon" type="image/png" size="32x32" href="img/logo-icon.png">
+    <script src="https://kit.fontawesome.com/fe88660808.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js" referrerpolicy="no-referrer"></script>
+</head>
+<body>
+  <div id="header">
+    <nav>
+        <h2 class="logo">Soft<span>-digitals</span></h2>
+        <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+            <i class="fas fa-times" onclick="closemenu()"></i>
+        </ul>
+        <i class="fas fa-bars" onclick="openmenu()"></i>
+    </nav>
+
+    <div class="content">
+        <h4>Hi, my name is</h4>
+        <h1>Olayinka <span>Abubakar</span></h1>
+        <h3>I'm a <span class="typing">Web Developer.</span></h3>
+    </div>
+  </div> 
+
+  <div id="about">
+    <div class="container">      
+        <div class="about-col">
+            <h1 class="subtitle">About Me</h1>
+            <p class="par">
+                I am a front-end web developer. I can provide clean code and pixel perfect design. I also make the website more & more interactive with web animations. 
+                I can provide clean code and pixel perfect design. A responsive design makes your website accessible to all users, regardless of their device.
+                I am also a cybersecurity expert. I conduct vulnerability and penetration test on networks. And I am also sound in Python GUI.
+            </p>
+
+            <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+                <ul>
+                    <li><span>Fullstack Web Development</span><br>Web/App Development</li>
+                    <li><span>Cybersecurity</span><br>Linux Operator</li>
+                    <li><span>Python</span><br>GUI Development</li>
+                </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+                <ul>
+                    <li><span>2020-Current</span><br>Lead Developer at Ismhab Store</li>
+                    <li><span>2022-Current</span><br>Intership at Femtech</li>
+                    <li><span>2020-2021</span><br>Intership at Interface ICT</li>
+                </ul>
+            </div>
+            <div class="tab-contents" id="education">
+                <ul>
+                    <li><span>2020</span><br>Python GUI Development Training at Interface</li>
+                    <li><span>2020</span><br>Web Designing Training at Interface</li>
+                    <li><span>2022</span><br>Cybersecurity Training at Femtech</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+  </div>
+
+  <div id="services">
+    <div class="container">
+        <h1 class="subtitle">My Services</h1>
+        <div class="services-list">
+            <div class="service-list-box">
+                <i class="fa-solid fa-code icon"></i>
+                <h2 class="service-list-title">Web development</h2>
+                <p class="service-list-text">Web Dev is the building and maintenance of websites; it’s the work that happens behind the scenes to make a website look great, 
+                work fast and perform well with a seamless user experience.</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div class="service-list-box">
+                <i class="fa-solid fa-crop icon"></i>
+                <h2 class="service-list-title">Cybersecurity</h2>
+                <p class="service-list-text">Cybersecurity is the practice of defending computers, servers, mobile devices, electronic systems, networks, and data from malicious attacks. 
+                It's also known as information technology security or electronic information security.</p>
+                <a href="https://www.kaspersky.com/resource-center/definitions/what-is-cyber-security">Learn More</a>
+            </div>
+            <div class="service-list-box">
+                <i class="fa-brands fa-python icon"></i>
+                <h2 class="service-list-title">Python Tkinter(GUI)</h2>
+                <p class="service-list-text">Python tkinter is considered as the de-facto GUI toolkit for many Python developers, 
+                    with many beginners picking it up as their first GUI programming framework.</p>
+                <a href="https://wiki.python.org/moin/TkInter">Learn More</a>
+            </div>
+        </div>
+    </div>
+  </div>  
+  <div id="portfolio">
+    <div class="container">
+        <h1 class="subtitle">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="img/work-1.png">
+                <div class="layer">
+                    <h3>E-commerce Website</h3>
+                    <p>The website is an Online Store,<br>
+                    where you can purchase various products.</p>
+                    <a href="https://ismhab.com/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="img/work-2.png">
+                <div class="layer">
+                    <h3>Blogger Website</h3>
+                    <p>The website is an Online Store,<br>
+                    where you can purchase various products.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="img/work-3.png">
+                <div class="layer">
+                    <h3>Educational Website</h3>
+                    <p>The website is an Online Store,<br>
+                    where you can purchase various products.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>   
+        <a href="#" class="btn">See more</a>
+    </div>
+  </div>
+
+  <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="subtitle contact">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> abubakarolasadiq@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i> +2349066776748</p>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/soft_digitals_/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://twitter.com/soft_digitals"><i class="fa-brands fa-twitter"></i></a>
+                    <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="https://www.linkedin.com/in/olayinka-abubakar-402a27246/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="img/Abubakar_Sadiq_Olayinka_Resume.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" style="font-size: 15px;" required>
+                    <input type="email" name="Email" placeholder="Your Email" style="font-size: 15px;" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message" style="font-size: 15px;"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+  </div>
+  <div class="copyright">
+    <p>Copyright &copy   Soft-digitals 2022.
+    </p>
+</div>
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links")
+    var tabcontents = document.getElementsByClassName("tab-contents")
+
+    function opentab(tabname){
+        for (tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link")
+        document.getElementById(tabname).classList.add("active-tab")
+    }
+
+</script>
+<script>
+
+    var sidemeu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemeu.style.right = 0;
+    }
+    function closemenu(){
+        sidemeu.style.right = "-180px";
+    }
+
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwjF6mk5HO9WDdAmPhadAJLuIVNm-vYB3VdtFl43ypnGJp4qGOOJ4qK4D5DQMce3Am3/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+</script>
+<script>
+    // Typing Animation
+    var typed = new Typed(".typing",{
+        strings:["","Web Developer.","Web Designer.","Python(GUI) Developer.","Cybersecurity Expert."],
+        typeSpeed:150,
+        BackSpeed:200,
+        loop:true
+    })
+</script>
+</body>
+</html>
