@@ -125,7 +125,7 @@ h4{
 }
 .tab-titles{
 	display: flex;
-	margin: 20px -50px 40px ;
+	margin: 20px 25px 20px ;
 }
 .tab-links{
 	margin-right: -60px;
@@ -165,7 +165,7 @@ h4{
 .tab-contents{
 	display: none;
 	text-align: center;
-	margin-left: -30px;
+	margin-left: 325px;
 }
 .tab-contents.active-tab{
 	display: block;
