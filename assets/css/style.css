@@ -1047,19 +1047,6 @@ textarea.contact-input {
 
   .contact-icon { padding: 30px; }
 
-
-
-  /**
-   * BLOG
-   */
-
-  .blog { padding-block-end: 180px; }
-
-  .blog-list {
-    grid-template-columns: repeat(3, 1fr);
-    gap: 25px;
-  }
-
   
 
   /**
