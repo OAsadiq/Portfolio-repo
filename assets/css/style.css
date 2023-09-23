@@ -431,6 +431,15 @@ body {
   text-decoration: underline;
 }
 
+.portfolio-card .btn3-link {
+  display: block;
+  margin-top: 120px;
+  font-size: var(--fs-6);
+  text-transform: uppercase;
+  color: var(--black);
+  text-decoration: underline;
+}
+
 
 /* .portfolio-list > li:nth-child(even) .card-content { margin-inline-start: auto; } */
 
@@ -453,6 +462,7 @@ body {
 
 #pc3 {
   background-color: var(--independence);
+  background-image: url("../images/portfolio-3.png");
   background-size: contain;
 	background-repeat: no-repeat;
   background-position: center;
