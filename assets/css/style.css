@@ -1004,6 +1004,11 @@ textarea.contact-input {
     margin-top: 200px;
   }
 
+  .portfolio-card .btn3-link {
+    font-size: var(--fs-5);
+    margin-top: 200px;
+  }
+
   #pc1{
     background-size: cover;
     background-position: left;
