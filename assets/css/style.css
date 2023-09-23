@@ -461,7 +461,7 @@ body {
 }
 
 #pc3 {
-  background-color: var(--independence);
+  /* background-color: var(--independence); */
   background-image: url("../images/portfolio-3.png");
   background-size: contain;
 	background-repeat: no-repeat;
