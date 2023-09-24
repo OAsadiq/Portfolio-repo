@@ -458,7 +458,8 @@ body {
   background-size: contain;
 	background-repeat: no-repeat;
   background-position: center;
-  
+  width: 90%;
+  margin-left: 15px;
 }
 
 #pc2 {
@@ -467,6 +468,8 @@ body {
   background-size: contain;
 	background-repeat: no-repeat;
   background-position: center;
+  width: 90%;
+  margin-left: 15px;
 }
 
 #pc3 {
@@ -475,14 +478,18 @@ body {
   background-size: contain;
 	background-repeat: no-repeat;
   background-position: center;
+  width: 90%;
+  margin-left: 15px;
 }
 
 #pc4 {
   /* background-color: var(--independence); */
   background-image: url("../images/portfolio-4.png");
-  background-size: contain;
+  background-size: cover;
 	background-repeat: no-repeat;
-  background-position: center;
+  background-position: top;
+  width: 90%;
+  margin-left: 15px;
 }
 
 
@@ -1038,21 +1045,25 @@ textarea.contact-input {
   #pc1{
     background-size: cover;
     background-position: left;
+    width: 600px;
   }
 
   #pc2{
     background-size: cover;
     background-position: left;
+    width: 600px;
   }
 
   #pc3{
     background-size: cover;
     background-position: left;
+    width: 600px;
   }
 
   #pc4{
     background-size: cover;
     background-position: left;
+    width: 600px;
   }
 
   .icon {
