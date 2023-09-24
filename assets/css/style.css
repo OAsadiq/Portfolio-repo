@@ -436,16 +436,16 @@ body {
   margin-top: 120px;
   font-size: var(--fs-6);
   text-transform: uppercase;
-  color: var(--black);
+  color: var(--white);
   text-decoration: underline;
 }
 
 .portfolio-card .btn4-link {
   display: block;
-  margin-top: 120px;
+  margin-top: 100px;
   font-size: var(--fs-6);
   text-transform: uppercase;
-  color: var(--black);
+  color: var(--white);
   text-decoration: underline;
 }
 
@@ -1030,6 +1030,7 @@ textarea.contact-input {
   }
 
   .portfolio-card .btn4-link {
+    margin-left: -275px;
     font-size: var(--fs-5);
     margin-top: 200px;
   }
