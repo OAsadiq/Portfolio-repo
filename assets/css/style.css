@@ -440,6 +440,15 @@ body {
   text-decoration: underline;
 }
 
+.portfolio-card .btn4-link {
+  display: block;
+  margin-top: 120px;
+  font-size: var(--fs-6);
+  text-transform: uppercase;
+  color: var(--black);
+  text-decoration: underline;
+}
+
 
 /* .portfolio-list > li:nth-child(even) .card-content { margin-inline-start: auto; } */
 
@@ -469,7 +478,8 @@ body {
 }
 
 #pc4 {
-  background-color: var(--independence);
+  /* background-color: var(--independence); */
+  background-image: url("../images/portfolio-4.png");
   background-size: contain;
 	background-repeat: no-repeat;
   background-position: center;
@@ -1019,12 +1029,27 @@ textarea.contact-input {
     margin-top: 200px;
   }
 
+  .portfolio-card .btn4-link {
+    font-size: var(--fs-5);
+    margin-top: 200px;
+  }
+
   #pc1{
     background-size: cover;
     background-position: left;
   }
 
   #pc2{
+    background-size: cover;
+    background-position: left;
+  }
+
+  #pc3{
+    background-size: cover;
+    background-position: left;
+  }
+
+  #pc4{
     background-size: cover;
     background-position: left;
   }
