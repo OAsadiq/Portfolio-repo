@@ -10,7 +10,7 @@
 
   Fully responsive personal portfolio website, <br />Responsive for all devices, built using HTML, CSS, and JavaScript.
 
-  <a href="https://portfolio.vercel.app/"><strong>➥ Live Demo</strong></a>
+  <a href="https://portfolio-sadiq.vercel.app/"><strong>➥ Live Demo</strong></a>
 
 </div>
 
