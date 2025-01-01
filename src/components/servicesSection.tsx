@@ -1,3 +1,5 @@
+import React from "react";
+
 const ServicesSection = () => {
   const services = [
     {
@@ -49,7 +51,7 @@ const ServicesSection = () => {
 
   return (
     <section className="py-16">
-      <div className="max-w-7xl mx-auto px-6 lg:px-12">
+      <div className="max-w-7xl mx-auto px-6">
         <h2 className="text-2xl lg:text-4xl font-bold text-white text-center mb-2 lg:mb-6">
           Services I Offer <span className="text-red-500">🔥</span>
         </h2>

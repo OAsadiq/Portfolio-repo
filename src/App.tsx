@@ -5,6 +5,7 @@ import ProjectsSection from "./components/projectsSection";
 import SkillsSection from "./components/skillsSection";
 import ExperienceTimeline from "./components/experienceTimeline";
 import FooterSection from "./components/footer";
+import React from "react";
 
 const App = () => {
   return (

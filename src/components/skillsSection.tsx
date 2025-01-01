@@ -1,3 +1,5 @@
+import React from "react";
+
 const skills = [
   'HTML',
   'CSS',
@@ -20,7 +22,7 @@ const skills = [
 const SkillsSection = () => {
   return (
     <section className="py-16">
-      <div className="max-w-7xl mx-auto px-6 lg:px-12">
+      <div className="max-w-7xl mx-auto px-6">
         <h2 className="text-2xl lg:text-4xl font-bold text-white text-center mb-2 lg:mb-6">
           Skills <span className="text-yellow-500">👩‍💻</span>
         </h2>

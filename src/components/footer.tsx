@@ -29,7 +29,7 @@ const FooterSection = () => {
   
     return (
       <footer className="py-16 bg-[#0A192F] text-[#F5EFE7] text-center">
-        <div className="p-8 max-w-4xl mx-auto">
+        <div className="px-6 max-w-4xl mx-auto">
           <h3 className="text-2xl font-bold mb-4">
             Start a project <span className="text-pink-500">🚀</span>
           </h3>

@@ -6,7 +6,7 @@ const AboutSection = () => {
   return (
     <section className="flex flex-col items-center mt-10 h-auto lg:px-20 lg:h-[80vh] lg:flex-row lg:mt-0">
       {/* Text Section */}
-      <div className="flex flex-col justify-center max-w-md px-10 space-y-6 lg:max-w-3xl">
+      <div className="flex flex-col justify-center max-w-md px-10 space-y-6 lg:max-w-3xl lg:px-16">
         <h2
           className="text-3xl font-bold lg:text-6xl text-[#D8C4B6] animate-text-gradient"
         >

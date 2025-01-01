@@ -2,7 +2,7 @@ const Header = () => {
 
   return (
     <header className="w-full">
-      <div className="flex items-center justify-between w-full py-5 pl-10 pr-6 md:pl-20 md:pr-12 lg:px-28">
+      <div className="flex items-center justify-between w-full py-5 pl-10 pr-6 md:pl-20 md:pr-12 lg:px-36">
         <div className="flex items-center">
           <h2 className="text-lg text-[#D8C4B6] font-bold">Sadiq.</h2>
         </div>

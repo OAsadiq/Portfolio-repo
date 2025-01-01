@@ -1,3 +1,5 @@
+import React from "react";
+
 const ExperienceTimeline = () => {
     const experiences = [
       {
@@ -25,7 +27,7 @@ const ExperienceTimeline = () => {
   
     return (
       <section className="py-16">
-        <div className="max-w-7xl mx-auto px-6 lg:px-12">
+        <div className="max-w-7xl mx-auto px-6">
           <h2 className="text-2xl lg:text-4xl font-bold text-white text-center mb-6 lg:mb-6">
             Experience Timeline <span className="text-red-500">📜</span>
           </h2>
