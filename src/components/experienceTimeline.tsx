@@ -22,7 +22,7 @@ const ExperienceTimeline = () => {
         "Worked on interactive web apps and contributed to backend APIs.",
         "Enhanced UI/UX features and implemented REST APIs.",
       ],
-      skills: ["HTML", "CSS", "JavaScript"],
+      skills: ["React", "TailwindCSS", "NodeJS", "PHP", "MySQL"],
     },
     {
       year: "2020 - 2022",
@@ -32,7 +32,7 @@ const ExperienceTimeline = () => {
         "Learned the basics of web development and contributed to small projects.",
         "Assisted in designing web pages and optimizing SEO performance.",
       ],
-      skills: ["Web Development", "SEO", "Version Control"],
+      skills: ["Web Development", "SEO", "Product Management"],
     },
   ];
 
@@ -64,7 +64,7 @@ const ExperienceTimeline = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
         >
-          Professional Experience <span className="text-red-500">📜</span>
+          Professional Experience <span className="text-red-500">📚</span>
         </motion.h2>
 
         <motion.div

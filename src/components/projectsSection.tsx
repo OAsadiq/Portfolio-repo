@@ -33,10 +33,10 @@ const ProjectsSection = () => {
       previewLink: "https://saving-app-beige.vercel.app/",
     },
     {
-      title: "Virtual AR",
-      description: "Online video-based modern landing page.",
+      title: "Jakore Portfolio",
+      description: "Portfolio Website for a Graphic Designer.",
       technologies: ["ReactJS", "JavaScript", "TailwindCSS"],
-      previewLink: "#",
+      previewLink: "https://jakore.vercel.app/",
     },
   ];
 
