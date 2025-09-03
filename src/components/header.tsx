@@ -53,7 +53,7 @@ const Header = () => {
           </motion.a>
 
           <motion.a
-            href="./assets/Olayinka's CV.pdf"
+            href="./assets/Olayinka_Resume.pdf"
             download="Sadiq_Resume.pdf"
             className="flex items-center justify-center px-3 py-2 lg:px-4 lg:py-2 text-sm font-medium text-[#213555] hover:text-[#F5EFE7] transition bg-[#D8C4B6] rounded-full shadow-[0_4px_10px_rgba(250,250,250,0.3)] hover:bg-[#3E5879]"
             whileHover={{ scale: 1.1 }} 
