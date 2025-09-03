@@ -64,7 +64,7 @@ const ExperienceTimeline = () => {
         "Enhanced sales workflows with invoicing, discounts, and stock updates.",
         "Trained staff to use the system effectively.",
       ],
-      skills: ["Penetration Testing", "Vulnerability Assessment", "Ethical Hacking", "Linux"],
+      skills: ["Python GUI", "SQlite Database", "Sales Management"],
     },
   ];
 
