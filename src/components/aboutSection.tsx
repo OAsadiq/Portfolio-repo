@@ -44,7 +44,7 @@ const AboutSection = () => {
           transition={{ delay: 1.5, duration: 0.7 }}
         >
           <motion.a
-            href="www.linkedin.com/in/abubakarsadiq-olayinka-444394265"
+            href="https://www.linkedin.com/in/oasadiq"
             target="_blank"
             rel="noopener noreferrer"
             whileHover={{ scale: 1.1 }} 
