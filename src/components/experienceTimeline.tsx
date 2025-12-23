@@ -4,7 +4,7 @@ import { useRef } from "react";
 const ExperienceTimeline = () => {
   const experiences = [
     {
-      year: "Nov 2024 - Present",
+      year: "Nov 2024 - July 2025",
       title: "Frontend Developer",
       company: "Uncut AI",
       description: [
@@ -17,7 +17,7 @@ const ExperienceTimeline = () => {
       skills: ["React", "TailwindCSS", "TypeScript"],
     },
     {
-      year: "Nov 2023 - Dec 2023",
+      year: "Oct 2023 – Sept 2024",
       title: "Full-stack Intern",
       company: "Femtech IT",
       description: [
@@ -29,7 +29,7 @@ const ExperienceTimeline = () => {
       skills: ["React", "TailwindCSS", "NodeJS", "PHP", "MySQL"],
     },
     {
-      year: "Dec 2024 - Present",
+      year: "Jan 2025 – Present",
       title: "Web Developer",
       company: "Elite Ayomide Solutions",
       description: [
@@ -55,9 +55,9 @@ const ExperienceTimeline = () => {
       skills: ["Penetration Testing", "Vulnerability Assessment", "Ethical Hacking", "Linux"],
     },
     {
-      year: "Nov 2020 – Dec 2020",
+      year: "Nov 2023 – Dec 2023",
       title: "Python Developer & Data Analyst Intern",
-      company: " Interface ICT",
+      company: "Newland Polytechnic",
       description: [
         "Designed and built a Python Tkinter-based inventory management system.",
         "Integrated SQLite database for real-time product and sales data.",

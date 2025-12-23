@@ -1,16 +1,16 @@
 import { FaLinkedinIn, FaInstagram } from "react-icons/fa";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faXTwitter } from "@fortawesome/free-brands-svg-icons";
-import { motion } from "framer-motion"; 
+import { motion } from "framer-motion";
 
 const AboutSection = () => {
   return (
     <section className="flex flex-col items-center mt-32 h-auto lg:px-20 lg:h-[100vh] lg:flex-row lg:mt-0">
       <motion.div
         className="flex flex-col justify-center max-w-md px-10 space-y-6 lg:max-w-3xl lg:px-16"
-        initial={{ opacity: 0, x: -50 }} 
-        animate={{ opacity: 1, x: 0 }} 
-        transition={{ duration: 1, ease: "easeOut" }} 
+        initial={{ opacity: 0, x: -50 }}
+        animate={{ opacity: 1, x: 0 }}
+        transition={{ duration: 1, ease: "easeOut" }}
       >
         <motion.h2
           className="text-3xl font-bold lg:text-6xl text-[#D8C4B6] animate-text-gradient"
@@ -18,7 +18,7 @@ const AboutSection = () => {
           animate={{ y: 0, opacity: 1 }}
           transition={{ delay: 0.5, duration: 1 }}
         >
-          Creative Software Developer.
+          Frontend-Focused Software Developer.
         </motion.h2>
 
         <motion.p
@@ -29,12 +29,13 @@ const AboutSection = () => {
         >
           You got here! I'm{" "}
           <span className="text-red-500 underline decoration-purple-700">
-            Sadiq
+            Abubakarsadiq
           </span>
-          , a Fullstack Developer heavy on Frontend and passionate about GUIs
-          and constructing web security. I develop industry-standard products
-          that solve everyday problems with an emphasis on user experience,
-          accessibility, and performance.
+          , Frontend Developer with 5+ years of experience building user-focused
+          web applications. I specialize in React and TypeScript, with
+          additional skills in backend development, Python GUI applications, and
+          cybersecurity. I develop industry-standard products that emphasize
+          user experience, accessibility, and performance.
         </motion.p>
 
         <motion.div
@@ -47,7 +48,7 @@ const AboutSection = () => {
             href="https://www.linkedin.com/in/oasadiq"
             target="_blank"
             rel="noopener noreferrer"
-            whileHover={{ scale: 1.1 }} 
+            whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.9 }}
             className="text-[#D8C4B6] text-xl hover:text-[#213555] transition rounded-full border border-[#D8C4B6] p-3 hover:bg-[#D8C4B6]"
           >
@@ -81,15 +82,15 @@ const AboutSection = () => {
 
       <motion.div
         className="relative mt-8 lg:mt-0 w-full max-w-xs mx-auto overflow-hidden shadow-xl lg:w-[800px] group border border-[#F5EFE7] p-3 transition-all 1s cursor-pointer"
-        initial={{ scale: 0.8, opacity: 0 }} 
+        initial={{ scale: 0.8, opacity: 0 }}
         animate={{ scale: 1, opacity: 1 }}
         transition={{ duration: 1.2, ease: "easeOut" }}
-        whileHover={{ scale: 1.05 }} 
+        whileHover={{ scale: 1.05 }}
       >
         <motion.img
           src="./assets/logo.jpeg"
           className="w-full"
-          whileHover={{ scale: 1.2 }} 
+          whileHover={{ scale: 1.2 }}
         />
       </motion.div>
     </section>

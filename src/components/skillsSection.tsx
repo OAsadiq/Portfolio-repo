@@ -10,7 +10,7 @@ const skills = [
   'React',
   'TailwindCSS',
   'NodeJS',
-  'React Native',
+  'Linux',
   'Animations',
   'SEO',
   'Python (GUI)',

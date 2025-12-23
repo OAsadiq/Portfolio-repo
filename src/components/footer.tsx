@@ -15,7 +15,7 @@ const FooterSection = () => {
     {
       name: "LinkedIn",
       icon: "https://img.icons8.com/ios-filled/50/ffffff/linkedin.png",
-      href: "https://www.linkedin.com/in/sadiq-olayinka-402a27246/",
+      href: "https://www.linkedin.com/in/oasadiq/",
     },
     {
       name: "WhatsApp",
@@ -101,7 +101,7 @@ const FooterSection = () => {
           viewport={{ once: true }}
           variants={textVariants}
         >
-          © 2025 <span className="font-bold">Sadiq</span>
+          © 2025 <span className="font-bold">OAsadiq</span>
         </motion.p>
       </div>
     </footer>
