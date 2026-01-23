@@ -18,11 +18,6 @@ const FooterSection = () => {
       href: "https://www.linkedin.com/in/oasadiq/",
     },
     {
-      name: "WhatsApp",
-      icon: "https://img.icons8.com/ios-filled/50/ffffff/whatsapp.png",
-      href: "https://wa.me/message/KWP452YLNXJLB1",
-    },
-    {
       name: "Email",
       icon: "https://img.icons8.com/ios-filled/50/ffffff/new-post.png",
       href: "mailto:sadiqolayinka17@gmail.com",
