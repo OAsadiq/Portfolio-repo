@@ -32,10 +32,10 @@ const AboutSection = () => {
             Abubakarsadiq Olayinka
           </span>{" "}
           (OAsadiq), a frontend developer with 3+ years of experience shipping
-          React and TypeScript products, from an AI video editor to SaaS and
-          business websites used by real customers. I care about clean UI,
-          accessibility and performance, and I'm comfortable across the stack
-          with Node, PHP and SQL when a project needs it.
+          React and TypeScript products, from my own SaaS, Porfilr, to business
+          websites used by real customers. I'm also training in network
+          security, so I build with security in mind, not as an afterthought.
+          I care about clean UI, accessibility and performance.
         </motion.p>
 
         <motion.div

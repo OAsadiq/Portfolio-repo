@@ -38,12 +38,12 @@ const projects: Project[] = [
     image: "/assets/projects/whitestone.jpg",
   },
   {
-    title: "Uncut AI",
-    description:
-      "Frontend for an AI video-editing app: media upload with drag-and-drop, previews, Video.js playback and AI editing tools wired to the API.",
-    technologies: ["React", "TypeScript", "TailwindCSS", "Video.js"],
-    link: "https://uncutai.io/",
+    title: "Byond",
+    description: "Brand website for a clothing label, with a responsive product showcase and smooth, mobile-first layout.",
+    technologies: ["HTML", "JavaScript", "CSS"],
+    link: "https://byond-brand.vercel.app/",
     linkLabel: "Visit site",
+    image: "/assets/projects/byond.jpg",
   },
   {
     title: "Jakore Portfolio",

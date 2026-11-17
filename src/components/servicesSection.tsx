@@ -1,4 +1,4 @@
-import { FaLaptopCode, FaShieldAlt, FaDesktop } from "react-icons/fa";
+import { FaLaptopCode, FaNetworkWired, FaDesktop } from "react-icons/fa";
 import { motion } from "framer-motion";
 
 const ServicesSection = () => {
@@ -10,10 +10,10 @@ const ServicesSection = () => {
       icon: <FaLaptopCode />,
     },
     {
-      title: "WEB SECURITY",
+      title: "NETWORK SECURITY",
       description:
-        "Vulnerability assessments and penetration testing to find and fix security risks in web applications before attackers do.",
-      icon: <FaShieldAlt />,
+        "Securing networks and web apps: vulnerability assessments, network traffic analysis, firewall and access hardening, and clear remediation reports. Currently deepening this through a 12-month network security program.",
+      icon: <FaNetworkWired />,
     },
     {
       title: "DESKTOP APPS",

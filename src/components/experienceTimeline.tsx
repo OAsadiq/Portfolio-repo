@@ -4,28 +4,16 @@ import { useRef } from "react";
 const ExperienceTimeline = () => {
   const experiences = [
     {
-      year: "Jan 2025 – Present",
-      title: "Web Developer",
-      company: "Elite Ayomide Solutions",
+      year: "Nov 2025 – Present",
+      title: "Founder & Full-stack Developer",
+      company: "Porfilr",
       description: [
-        "Designed and built a dual-purpose company website: a corporate site showcasing investment options and an e-learning platform for cryptocurrency education.",
-        "Built account creation, course enrollment and access to free and paid classes, with payment integration.",
-        "Implemented a responsive UI with React.js and Tailwind CSS for seamless access across devices.",
-        "Streamlined course registration and learning-management flows, working directly with stakeholders on business and educational goals.",
+        "Founded and built Porfilr, a SaaS that lets writers, designers and marketers create a professional portfolio in minutes without code.",
+        "Built the visual portfolio builder, shareable public portfolio pages and the onboarding flow in React and TypeScript.",
+        "Implemented authentication and data storage with Supabase, and subscription payments with Stripe.",
+        "Built serverless APIs and file uploads on Vercel, plus referral and newsletter features to drive growth.",
       ],
-      skills: ["React", "TailwindCSS", "Payment Integration", "SEO"],
-    },
-    {
-      year: "Nov 2024 – Jul 2025",
-      title: "Frontend Developer",
-      company: "Uncut AI",
-      description: [
-        "Developed and optimized the frontend architecture of an AI video-editing app using React.js, TypeScript and Tailwind CSS.",
-        "Implemented media upload and management with drag-and-drop, previews and Video.js integration.",
-        "Integrated APIs for video processing and AI-powered editing tools.",
-        "Built reusable UI components and animations with Framer Motion; ran cross-browser testing in an Agile team using Git/GitHub.",
-      ],
-      skills: ["React", "TypeScript", "TailwindCSS", "Framer Motion", "Video.js"],
+      skills: ["React", "TypeScript", "Supabase", "Stripe", "Vercel"],
     },
     {
       year: "Oct 2023 – Sep 2024",

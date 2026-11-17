@@ -1,4 +1,5 @@
 const certifications = [
+  { title: "Network Security (in progress, Oct 2026 – Oct 2027)", issuer: "12-month professional program" },
   { title: "Web Development (Full-stack)", issuer: "Femtech Information Technology Institute" },
   { title: "Cybersecurity", issuer: "Femtech Information Technology Institute" },
   { title: "Python Programming (GUI)", issuer: "Interface ICT Training Institute" },
@@ -11,7 +12,7 @@ const CertificationsSection = () => {
         <h2 className="text-2xl lg:text-4xl font-bold text-white text-center lg:text-left mb-8">
           Certifications
         </h2>
-        <ul className="grid grid-cols-1 md:grid-cols-3 gap-4">
+        <ul className="grid grid-cols-1 md:grid-cols-2 gap-4">
           {certifications.map((cert) => (
             <li
               key={cert.title}

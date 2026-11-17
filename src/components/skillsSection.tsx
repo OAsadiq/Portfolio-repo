@@ -10,8 +10,12 @@ const groups = [
     skills: ["Node.js / Express", "PHP", "REST APIs", "Supabase", "MySQL", "SQLite", "Stripe & payments"],
   },
   {
+    name: "Security",
+    skills: ["Network security", "TCP/IP & networking", "Vulnerability assessment", "Penetration testing", "Traffic analysis", "Linux"],
+  },
+  {
     name: "Tools & other",
-    skills: ["Git & GitHub", "Vercel", "SEO", "Linux", "Python (Tkinter, PyQt)", "Penetration testing"],
+    skills: ["Git & GitHub", "Vercel", "SEO", "Python (Tkinter, PyQt)"],
   },
 ];
 
@@ -32,7 +36,7 @@ const SkillsSection = () => {
           The tools I use to ship products end to end.
         </p>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           {groups.map((group, i) => (
             <motion.div
               key={group.name}
