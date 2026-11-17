@@ -38,6 +38,15 @@ const projects: Project[] = [
     image: "/assets/projects/whitestone.jpg",
   },
   {
+    title: "Uncut AI",
+    description:
+      "Frontend for a pre-launch AI video-editing product for TikTok creators: landing page and waitlist, plus app screens with drag-and-drop media upload, previews and AI editing tools.",
+    technologies: ["React", "TypeScript", "TailwindCSS", "Framer Motion"],
+    link: "https://uncut-ai.vercel.app/",
+    linkLabel: "Visit site",
+    image: "/assets/projects/uncut.jpg",
+  },
+  {
     title: "Jakore Portfolio",
     description: "Animated portfolio website for a graphic designer, showcasing their work in a clean, responsive layout.",
     technologies: ["React", "JavaScript", "TailwindCSS"],
