@@ -16,6 +16,18 @@ const ExperienceTimeline = () => {
       skills: ["React", "TypeScript", "Supabase", "Stripe", "Vercel"],
     },
     {
+      year: "Sep 2024 – Mar 2025",
+      title: "Frontend Developer",
+      company: "Uncut AI",
+      description: [
+        "Built the frontend of a pre-launch AI video-editing app with React.js, TypeScript and Tailwind CSS.",
+        "Implemented media upload and management with drag-and-drop, previews and Video.js playback.",
+        "Integrated APIs for video processing and AI-powered editing tools.",
+        "Built reusable UI components and animations with Framer Motion in an Agile team using Git/GitHub.",
+      ],
+      skills: ["React", "TypeScript", "TailwindCSS", "Framer Motion", "Video.js"],
+    },
+    {
       year: "Nov 2023 – Dec 2023",
       title: "Python Developer Intern",
       company: "Newland Polytechnic",
