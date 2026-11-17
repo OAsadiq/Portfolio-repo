@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -29,7 +30,7 @@ const Header = () => {
             animate={{ x: 0, opacity: 1 }}
             transition={{ delay: 0.3, duration: 0.6 }}
           >
-            OAsadiq.
+            <Link to="/">OAsadiq.</Link>
           </motion.h2>
         </div>
 

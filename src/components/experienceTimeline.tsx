@@ -8,7 +8,7 @@ const ExperienceTimeline = () => {
       title: "Founder & Full-stack Developer",
       company: "Porfilr",
       description: [
-        "Founded and built Porfilr, a SaaS that lets writers, designers and marketers create a professional portfolio in minutes without code — 8 signups and 32 portfolios published so far.",
+        "Founded and built Porfilr, a SaaS that lets writers, designers and marketers create a professional portfolio in minutes without code — 41 signups and 20 portfolios published so far.",
         "Built the visual portfolio builder, shareable public portfolio pages and the onboarding flow in React and TypeScript.",
         "Implemented authentication and data storage with Supabase, and subscription payments with Stripe.",
         "Built serverless APIs and file uploads on Vercel, plus referral and newsletter features to drive growth.",
