@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 
 type Project = {
   title: string;
@@ -7,13 +8,15 @@ type Project = {
   link: string;
   linkLabel: string;
   image?: string;
+  caseStudy?: string;
 };
 
 const projects: Project[] = [
   {
     title: "Porfilr",
     description:
-      "SaaS that lets writers, designers and marketers build a professional portfolio in minutes, with no code. Includes a visual builder, auth, payments and shareable public pages. 8 signups and 32 portfolios published so far.",
+      "SaaS that lets writers, designers and marketers build a professional portfolio in minutes, with no code. Includes a visual builder, auth, payments and shareable public pages. 41 signups and 20 portfolios published so far.",
+    caseStudy: "/work/porfilr",
     technologies: ["React", "TypeScript", "Supabase", "Stripe", "Vercel"],
     link: "https://porfilr.com/",
     linkLabel: "Visit site",
@@ -127,6 +130,14 @@ const ProjectsSection = () => {
                     </li>
                   ))}
                 </ul>
+                {project.caseStudy && (
+                  <Link
+                    to={project.caseStudy}
+                    className="mb-2 flex items-center justify-center border border-[#D8C4B6] px-4 py-2 rounded text-[#D8C4B6] text-sm font-semibold hover:bg-[#3E5879] transition w-full"
+                  >
+                    Read case study
+                  </Link>
+                )}
                 <a
                   href={project.link}
                   target="_blank"
