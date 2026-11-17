@@ -18,7 +18,7 @@ const AboutSection = () => {
           animate={{ y: 0, opacity: 1 }}
           transition={{ delay: 0.5, duration: 1 }}
         >
-          Frontend-Focused Software Developer.
+          Frontend Developer building fast, accessible web apps.
         </motion.h2>
 
         <motion.p
@@ -27,25 +27,50 @@ const AboutSection = () => {
           animate={{ opacity: 1 }}
           transition={{ delay: 1, duration: 1 }}
         >
-          You got here! I'm{" "}
-          <span className="text-red-500 underline decoration-purple-700">
-            Abubakarsadiq
-          </span>
-          , Frontend Developer with 5+ years of experience building user-focused
-          web applications. I specialize in React and TypeScript, with
-          additional skills in backend development, Python GUI applications, and
-          cybersecurity. I develop industry-standard products that emphasize
-          user experience, accessibility, and performance.
+          I'm{" "}
+          <span className="text-[#D8C4B6] font-semibold">
+            Abubakarsadiq Olayinka
+          </span>{" "}
+          (OAsadiq), a frontend developer with 3+ years of experience shipping
+          React and TypeScript products, from my own SaaS, Porfilr, to business
+          websites used by real customers. I'm also training in network
+          security, so I build with security in mind, not as an afterthought.
+          I care about clean UI, accessibility and performance.
         </motion.p>
 
         <motion.div
-          className="flex items-center space-x-6 lg:pt-5"
+          className="flex flex-wrap gap-2"
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ delay: 1.2, duration: 0.8 }}
+        >
+          <span className="inline-flex items-center gap-2 rounded-full border border-emerald-400/40 bg-emerald-400/10 px-3 py-1 text-xs text-emerald-300">
+            <span className="h-2 w-2 rounded-full bg-emerald-400" />
+            Open to full-time remote roles
+          </span>
+          <span className="inline-flex items-center gap-2 rounded-full border border-emerald-400/40 bg-emerald-400/10 px-3 py-1 text-xs text-emerald-300">
+            <span className="h-2 w-2 rounded-full bg-emerald-400" />
+            Taking freelance projects
+          </span>
+        </motion.div>
+
+        <motion.div
+          className="flex flex-wrap items-center gap-4 lg:pt-2"
           initial={{ opacity: 0, scale: 0.8 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ delay: 1.5, duration: 0.7 }}
         >
           <motion.a
+            href="#contact"
+            whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 0.95 }}
+            className="rounded-full bg-[#D8C4B6] px-5 py-3 text-sm font-semibold text-[#213555] hover:bg-[#F5EFE7] transition"
+          >
+            Get in touch
+          </motion.a>
+          <motion.a
             href="https://www.linkedin.com/in/oasadiq"
+            aria-label="LinkedIn"
             target="_blank"
             rel="noopener noreferrer"
             whileHover={{ scale: 1.1 }}
@@ -56,6 +81,7 @@ const AboutSection = () => {
           </motion.a>
           <motion.a
             href="https://x.com/oasadiq"
+            aria-label="X (Twitter)"
             target="_blank"
             rel="noopener noreferrer"
             whileHover={{ scale: 1.1 }}
@@ -69,6 +95,7 @@ const AboutSection = () => {
           </motion.a>
           <motion.a
             href="https://instagram.com/oasadiq"
+            aria-label="Instagram"
             target="_blank"
             rel="noopener noreferrer"
             whileHover={{ scale: 1.1 }}
@@ -88,7 +115,8 @@ const AboutSection = () => {
         whileHover={{ scale: 1.05 }}
       >
         <motion.img
-          src="./assets/logo.jpeg"
+          src="/assets/logo.jpeg"
+          alt="Abubakarsadiq Olayinka at his desk"
           className="w-full"
           whileHover={{ scale: 1.2 }}
         />
