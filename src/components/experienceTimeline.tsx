@@ -16,15 +16,16 @@ const ExperienceTimeline = () => {
       skills: ["React", "TypeScript", "Supabase", "Stripe", "Vercel"],
     },
     {
-      year: "Oct 2023 – Sep 2024",
-      title: "Full-stack Intern",
-      company: "Femtech IT",
+      year: "Sep 2024 – Mar 2025",
+      title: "Frontend Developer",
+      company: "Uncut AI",
       description: [
-        "Built an e-commerce website with product catalog, user authentication, shopping cart and checkout.",
-        "Designed the MySQL database schema and PHP backend.",
-        "Developed a responsive UI with HTML, CSS and JavaScript, adding product filtering, sliders and form validation.",
+        "Built the frontend of a pre-launch AI video-editing app with React.js, TypeScript and Tailwind CSS.",
+        "Implemented media upload and management with drag-and-drop, previews and Video.js playback.",
+        "Integrated APIs for video processing and AI-powered editing tools.",
+        "Built reusable UI components and animations with Framer Motion in an Agile team using Git/GitHub.",
       ],
-      skills: ["PHP", "MySQL", "JavaScript", "HTML", "CSS"],
+      skills: ["React", "TypeScript", "TailwindCSS", "Framer Motion", "Video.js"],
     },
     {
       year: "Nov 2023 – Dec 2023",
@@ -38,7 +39,18 @@ const ExperienceTimeline = () => {
       skills: ["Python", "Tkinter", "SQLite"],
     },
     {
-      year: "Aug 2022 – Sep 2022",
+      year: "Oct 2022 – Feb 2023",
+      title: "Full-stack Intern",
+      company: "Femtech IT",
+      description: [
+        "Built an e-commerce website with product catalog, user authentication, shopping cart and checkout.",
+        "Designed the MySQL database schema and PHP backend.",
+        "Developed a responsive UI with HTML, CSS and JavaScript, adding product filtering, sliders and form validation.",
+      ],
+      skills: ["PHP", "MySQL", "JavaScript", "HTML", "CSS"],
+    },
+    {
+      year: "Mar 2022 – Jun 2022",
       title: "Cybersecurity Intern",
       company: "Femtech IT",
       description: [
