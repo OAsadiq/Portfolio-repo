@@ -1,5 +1,5 @@
 const certifications = [
-  { title: "Network Security (in progress, Oct 2026 – Oct 2027)", issuer: "12-month professional program" },
+  { title: "Network Security (in progress, Oct 2026 – Oct 2027)", issuer: "Cyber Institute of Atlanta" },
   { title: "Web Development (Full-stack)", issuer: "Femtech Information Technology Institute" },
   { title: "Cybersecurity", issuer: "Femtech Information Technology Institute" },
   { title: "Python Programming (GUI)", issuer: "Interface ICT Training Institute" },

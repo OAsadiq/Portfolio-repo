@@ -12,7 +12,7 @@ const ServicesSection = () => {
     {
       title: "NETWORK SECURITY",
       description:
-        "Securing networks and web apps: vulnerability assessments, network traffic analysis, firewall and access hardening, and clear remediation reports. Currently deepening this through a 12-month network security program.",
+        "Securing networks and web apps: vulnerability assessments, network traffic analysis, firewall and access hardening, and clear remediation reports. Currently deepening this through a 12-month network security program at Cyber Institute of Atlanta.",
       icon: <FaNetworkWired />,
     },
     {
