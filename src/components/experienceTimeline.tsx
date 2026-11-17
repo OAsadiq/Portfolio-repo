@@ -16,17 +16,6 @@ const ExperienceTimeline = () => {
       skills: ["React", "TypeScript", "Supabase", "Stripe", "Vercel"],
     },
     {
-      year: "Oct 2023 – Sep 2024",
-      title: "Full-stack Intern",
-      company: "Femtech IT",
-      description: [
-        "Built an e-commerce website with product catalog, user authentication, shopping cart and checkout.",
-        "Designed the MySQL database schema and PHP backend.",
-        "Developed a responsive UI with HTML, CSS and JavaScript, adding product filtering, sliders and form validation.",
-      ],
-      skills: ["PHP", "MySQL", "JavaScript", "HTML", "CSS"],
-    },
-    {
       year: "Nov 2023 – Dec 2023",
       title: "Python Developer Intern",
       company: "Newland Polytechnic",
@@ -38,7 +27,18 @@ const ExperienceTimeline = () => {
       skills: ["Python", "Tkinter", "SQLite"],
     },
     {
-      year: "Aug 2022 – Sep 2022",
+      year: "Oct 2022 – Feb 2023",
+      title: "Full-stack Intern",
+      company: "Femtech IT",
+      description: [
+        "Built an e-commerce website with product catalog, user authentication, shopping cart and checkout.",
+        "Designed the MySQL database schema and PHP backend.",
+        "Developed a responsive UI with HTML, CSS and JavaScript, adding product filtering, sliders and form validation.",
+      ],
+      skills: ["PHP", "MySQL", "JavaScript", "HTML", "CSS"],
+    },
+    {
+      year: "Mar 2022 – Jun 2022",
       title: "Cybersecurity Intern",
       company: "Femtech IT",
       description: [
