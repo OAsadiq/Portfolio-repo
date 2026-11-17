@@ -1,4 +1,4 @@
-import { FaLaptopCode, FaShieldAlt, FaDesktop, FaLightbulb, FaMobileAlt, FaPlug } from "react-icons/fa";
+import { FaLaptopCode, FaShieldAlt, FaDesktop } from "react-icons/fa";
 import { motion } from "framer-motion";
 
 const ServicesSection = () => {
@@ -6,38 +6,20 @@ const ServicesSection = () => {
     {
       title: "WEB DEVELOPMENT",
       description:
-        "I design and build beautiful websites with React, CSS, TailwindCSS, TypeScript, and JavaScript. I also develop backend APIs with Node/ExpressJS.",
+        "Responsive, accessible websites and web apps built with React, TypeScript and TailwindCSS — including API integrations, payments, auth and Node/Express or PHP backends when needed.",
       icon: <FaLaptopCode />,
     },
     {
       title: "WEB SECURITY",
       description:
-        "Providing vulnerability assessment and penetration testing services to identify and mitigate security risks in web applications.",
+        "Vulnerability assessments and penetration testing to find and fix security risks in web applications before attackers do.",
       icon: <FaShieldAlt />,
     },
     {
-      title: "GUI APPS",
+      title: "DESKTOP APPS",
       description:
-        "I design and develop Graphical User Interfaces (GUIs) with Python frameworks like Tkinter and PyQt to deliver intuitive and user-friendly desktop applications.",
+        "Python desktop tools with Tkinter or PyQt — like inventory and sales systems — that are simple for non-technical staff to use.",
       icon: <FaDesktop />,
-    },
-    {
-      title: "CONTINUOUS LEARNING",
-      description:
-        "Staying updated with the latest frontend technologies, trends, and best practices to deliver modern and innovative solutions.",
-      icon: <FaLightbulb />,
-    },
-    {
-      title: "RESPONSIVE DESIGN",
-      description:
-        "Building websites and applications that work seamlessly on various devices and screen sizes, from desktop to smartphones.",
-      icon: <FaMobileAlt />,
-    },
-    {
-      title: "API INTEGRATIONS",
-      description:
-        "Integrating backend services and APIs to the frontend securely to fetch and display data in real-time.",
-      icon: <FaPlug />,
     },
   ];
 
@@ -68,7 +50,7 @@ const ServicesSection = () => {
           viewport={{ once: true }}
           transition={{ duration: 1, ease: "easeOut" }}
         >
-          Services I Offer <span className="text-red-500">🔥</span>
+          Services I Offer
         </motion.h2>
         <motion.p
           className="text-[#F5EFE7] text-center lg:text-left mb-12"
@@ -77,7 +59,7 @@ const ServicesSection = () => {
           viewport={{ once: true }}
           transition={{ duration: 1, delay: 0.3 }}
         >
-          These are some of the services I offer as a software developer.
+          What I can build or secure for you.
         </motion.p>
 
         <motion.div

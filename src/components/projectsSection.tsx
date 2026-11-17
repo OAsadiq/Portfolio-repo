@@ -1,140 +1,148 @@
 import { motion } from "framer-motion";
 
+type Project = {
+  title: string;
+  description: string;
+  technologies: string[];
+  link: string;
+  linkLabel: string;
+  image?: string;
+};
+
+const projects: Project[] = [
+  {
+    title: "Porfilr",
+    description:
+      "SaaS that lets writers, designers and marketers build a professional portfolio in minutes, with no code. Includes a visual builder, auth, payments and shareable public pages.",
+    technologies: ["React", "TypeScript", "Supabase", "Stripe", "Vercel"],
+    link: "https://porfilr.com/",
+    linkLabel: "Visit site",
+    image: "/assets/projects/porfilr.jpg",
+  },
+  {
+    title: "Cedar Blue Accountants",
+    description:
+      "Marketing site for a Kent-based UK accounting firm: nine service pages on shared templates, SEO metadata and a working contact form.",
+    technologies: ["PHP", "JavaScript", "CSS", "SEO"],
+    link: "https://cedarblueaccountants.com/",
+    linkLabel: "Visit site",
+    image: "/assets/projects/cedarblue.jpg",
+  },
+  {
+    title: "Whitestone Property & Estates",
+    description:
+      "London property-management site with rentals, short stays and landlord pages, plus a custom admin where staff publish listings and photos without touching code.",
+    technologies: ["JavaScript", "PHP", "CSS", "CI/CD"],
+    link: "https://whitestonepropertyandestates.com/",
+    linkLabel: "Visit site",
+    image: "/assets/projects/whitestone.jpg",
+  },
+  {
+    title: "Uncut AI",
+    description:
+      "Frontend for an AI video-editing app: media upload with drag-and-drop, previews, Video.js playback and AI editing tools wired to the API.",
+    technologies: ["React", "TypeScript", "TailwindCSS", "Video.js"],
+    link: "https://uncutai.io/",
+    linkLabel: "Visit site",
+  },
+  {
+    title: "Jakore Portfolio",
+    description: "Animated portfolio website for a graphic designer, showcasing their work in a clean, responsive layout.",
+    technologies: ["React", "JavaScript", "TailwindCSS"],
+    link: "https://jakore.vercel.app/",
+    linkLabel: "Visit site",
+    image: "/assets/projects/jakore.jpg",
+  },
+  {
+    title: "Store Inventory System",
+    description:
+      "Desktop inventory and sales system built for Newland Polytechnic, with invoicing, discounts and real-time stock updates.",
+    technologies: ["Python", "Tkinter", "SQLite"],
+    link: "https://github.com/OAsadiq/store-inventory-system/",
+    linkLabel: "View code",
+  },
+];
+
 const ProjectsSection = () => {
-  const projects = [
-    {
-      title: "Byond",
-      description: "Modern brand website with responsive design for a clothing brand.",
-      technologies: ["HTML", "JavaScript", "CSS"],
-      previewLink: "https://byond-brand.vercel.app/",
-    },
-    {
-      title: "PSFEI",
-      description: "Business website for Palm farmers initiative with payment integration.",
-      technologies: ["Typescript", "Node.Js", "TailwindCSS"],
-      previewLink: "https://psfei.com/",
-    },
-    {
-      title: "Newland Polytechnic",
-      description: "Python-based inventory management system to manage sales.",
-      technologies: ["Python", "Tkinter", "SQLite"],
-      previewLink: "https://github.com/OAsadiq/store-inventory-system/",
-    },
-    {
-      title: "Uncut AI",
-      description: "Frontend for an AI video editing application.",
-      technologies: ["ReactJS", "TailwindCSS", "Typescript", "API integration"],
-      previewLink: "https://uncutai.io/",
-    },
-    {
-      title: "DripStore Dashboard",
-      description: "Admin dashboard for e-commerce operations.",
-      technologies: ["HTML", "JavaScript", "VanillaCSS"],
-      previewLink: "https://online-store-dashboard.vercel.app/",
-    },
-    {
-      title: "Jakore Portfolio",
-      description: "Portfolio Website for a Graphic Designer.",
-      technologies: ["ReactJS", "JavaScript", "TailwindCSS"],
-      previewLink: "https://jakore.vercel.app/",
-    },
-  ];
-
-  const containerVariants = {
-    hidden: { opacity: 0 },
-    visible: {
-      opacity: 1,
-      transition: { staggerChildren: 0.3, duration: 0.8 },
-    },
-  };
-
-  const cardVariants = {
-    hidden: { opacity: 0, rotateY: -90 },
-    visible: { opacity: 1, rotateY: 0, transition: { duration: 0.8, ease: "easeOut" } },
-    hover: { y: -10, transition: { type: "spring", stiffness: 200, damping: 5 } },
-  };
-
   return (
-    <motion.section
-      className="py-16"
-      initial="hidden"
-      whileInView="visible"
-      viewport={{ once: true }}
-      variants={containerVariants}
-    >
+    <section id="projects" className="py-16">
       <div className="max-w-7xl mx-auto px-6">
         <motion.h2
           className="text-2xl lg:text-4xl font-bold text-white text-center lg:text-left mb-2 lg:mb-6"
-          initial={{ opacity: 0, scale: 0.5 }}
-          whileInView={{ opacity: 1, scale: 1 }}
+          initial={{ opacity: 0, y: -20 }}
+          whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
         >
-          Some of my Works <span className="text-red-500">💻</span>
+          Selected Work
         </motion.h2>
-        <motion.p
-          className="text-[#F5EFE7] text-center lg:text-left mb-12"
-          initial={{ opacity: 0, scale: 0.8 }}
-          whileInView={{ opacity: 1, scale: 1 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.6, delay: 0.3 }}
-        >
-          Here are some of the fun and recent projects I've worked on.
-        </motion.p>
+        <p className="text-[#F5EFE7] text-center lg:text-left mb-12">
+          Live products and client sites I've designed and built.
+        </p>
 
-        <motion.div
-          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"
-          variants={containerVariants}
-        >
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {projects.map((project, index) => (
-            <motion.div
-              key={index}
-              className="p-8 bg-[#213555] rounded-md flex flex-col justify-between transition-transform"
-              variants={cardVariants}
-              whileHover="hover"
+            <motion.article
+              key={project.title}
+              className="bg-[#213555] rounded-md overflow-hidden flex flex-col"
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true, amount: 0.1 }}
+              transition={{ duration: 0.5, delay: (index % 3) * 0.1 }}
+              whileHover={{ y: -6 }}
             >
-              <h3 className="text-xl font-semibold text-white mb-4">{project.title}</h3>
-              <p className="text-[#F5EFE7] text-sm leading-relaxed mb-4">
-                {project.description}
-              </p>
-              <div className="flex flex-col gap-2 mb-4">
-                {project.technologies.map((tech, idx) => (
-                  <div
-                    key={idx}
-                    className="flex items-center space-x-2 bg-[#334155] text-[#F5EFE7] text-xs px-3 py-2 rounded"
-                  >
-                    <span>🚀</span>
-                    <span>{tech}</span>
-                  </div>
-                ))}
-              </div>
               <a
-                href={project.previewLink}
+                href={project.link}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center justify-center space-x-2 bg-white px-4 py-2 rounded hover:bg-[#D8C4B6] transition w-full"
+                className="block aspect-[16/10] overflow-hidden bg-gradient-to-br from-[#3E5879] to-[#0b1220]"
+                aria-label={`${project.linkLabel}: ${project.title}`}
               >
-                <p className="text-[#213555] text-sm font-semibold">View Project</p>
-                <svg
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="w-5 h-5 flex justify-end"
-                >
-                  <path
-                    d="M7 17L17 7M17 7H8M17 7V16"
-                    stroke="#213555"
-                    strokeWidth="2"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  ></path>
-                </svg>
+                {project.image ? (
+                  <img
+                    src={project.image}
+                    alt={`Screenshot of ${project.title}`}
+                    loading="lazy"
+                    className="w-full h-full object-cover object-top transition-transform duration-500 hover:scale-105"
+                  />
+                ) : (
+                  <div className="w-full h-full flex items-center justify-center text-2xl font-bold text-[#D8C4B6]">
+                    {project.title}
+                  </div>
+                )}
               </a>
-            </motion.div>
+              <div className="p-6 flex flex-col flex-1">
+                <h3 className="text-xl font-semibold text-white mb-3">{project.title}</h3>
+                <p className="text-[#F5EFE7] text-sm leading-relaxed mb-4 flex-1">
+                  {project.description}
+                </p>
+                <ul className="flex flex-wrap gap-2 mb-5">
+                  {project.technologies.map((tech) => (
+                    <li
+                      key={tech}
+                      className="bg-[#334155] text-[#F5EFE7] text-xs px-2.5 py-1 rounded"
+                    >
+                      {tech}
+                    </li>
+                  ))}
+                </ul>
+                <a
+                  href={project.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center justify-center gap-2 bg-white px-4 py-2 rounded hover:bg-[#D8C4B6] transition w-full text-[#213555] text-sm font-semibold"
+                >
+                  {project.linkLabel}
+                  <svg viewBox="0 0 24 24" fill="none" className="w-5 h-5" aria-hidden="true">
+                    <path d="M7 17L17 7M17 7H8M17 7V16" stroke="#213555" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+                  </svg>
+                </a>
+              </div>
+            </motion.article>
           ))}
-        </motion.div>
+        </div>
       </div>
-    </motion.section>
+    </section>
   );
 };
 

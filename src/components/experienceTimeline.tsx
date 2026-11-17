@@ -4,67 +4,60 @@ import { useRef } from "react";
 const ExperienceTimeline = () => {
   const experiences = [
     {
-      year: "Nov 2024 - July 2025",
-      title: "Frontend Developer",
-      company: "Uncut AI",
-      description: [
-        "Developed and optimized frontend architecture using React.js, TypeScript, and Tailwind CSS.",
-        "Implemented media upload and management features with drag-and-drop, previews, and Video.js integration.",
-        "Integrated APIs for video processing and AI-powered editing tools.",
-        "Built reusable UI components and added animations with Framer Motion.",
-        "Conducted cross-browser testing and collaborated in Agile using Git/GitHub.",
-      ],
-      skills: ["React", "TailwindCSS", "TypeScript"],
-    },
-    {
-      year: "Oct 2023 – Sept 2024",
-      title: "Full-stack Intern",
-      company: "Femtech IT",
-      description: [
-        "Built e-commerce website with product catalog, user authentication, shopping cart, and checkout.",
-        "Designed MySQL database schema and backend with PHP/SQL.",
-        "Developed responsive UI with HTML, CSS, and JavaScript.",
-        "Enhanced interactivity with product filtering, sliders, and form validation.",
-      ],
-      skills: ["React", "TailwindCSS", "NodeJS", "PHP", "MySQL"],
-    },
-    {
       year: "Jan 2025 – Present",
       title: "Web Developer",
       company: "Elite Ayomide Solutions",
       description: [
-        "Designed and developed a dual-function company website serving as both an awareness platform and an educational hub.",
-        "Built the corporate site to showcase company investment options and highlight support for scaling small businesses.",
-        "Developed an integrated e-learning platform for cryptocurrency education, enabling user account creation, course enrollment, and access to both free and paid classes.",
-        "Implemented responsive design using React.js and Tailwind CSS to ensure seamless access across devices.",
-        "Optimized user flows for course registration and learning management, improving overall user experience.",
-        "Collaborated with stakeholders to align the platform’s functionality with business and educational goals.",
+        "Designed and built a dual-purpose company website: a corporate site showcasing investment options and an e-learning platform for cryptocurrency education.",
+        "Built account creation, course enrollment and access to free and paid classes, with payment integration.",
+        "Implemented a responsive UI with React.js and Tailwind CSS for seamless access across devices.",
+        "Streamlined course registration and learning-management flows, working directly with stakeholders on business and educational goals.",
       ],
-      skills: ["Web Development", "SEO", "Product Management", "Payment Integration"],
+      skills: ["React", "TailwindCSS", "Payment Integration", "SEO"],
+    },
+    {
+      year: "Nov 2024 – Jul 2025",
+      title: "Frontend Developer",
+      company: "Uncut AI",
+      description: [
+        "Developed and optimized the frontend architecture of an AI video-editing app using React.js, TypeScript and Tailwind CSS.",
+        "Implemented media upload and management with drag-and-drop, previews and Video.js integration.",
+        "Integrated APIs for video processing and AI-powered editing tools.",
+        "Built reusable UI components and animations with Framer Motion; ran cross-browser testing in an Agile team using Git/GitHub.",
+      ],
+      skills: ["React", "TypeScript", "TailwindCSS", "Framer Motion", "Video.js"],
+    },
+    {
+      year: "Oct 2023 – Sep 2024",
+      title: "Full-stack Intern",
+      company: "Femtech IT",
+      description: [
+        "Built an e-commerce website with product catalog, user authentication, shopping cart and checkout.",
+        "Designed the MySQL database schema and PHP backend.",
+        "Developed a responsive UI with HTML, CSS and JavaScript, adding product filtering, sliders and form validation.",
+      ],
+      skills: ["PHP", "MySQL", "JavaScript", "HTML", "CSS"],
+    },
+    {
+      year: "Nov 2023 – Dec 2023",
+      title: "Python Developer Intern",
+      company: "Newland Polytechnic",
+      description: [
+        "Designed and built a Python Tkinter inventory management system with an SQLite database for real-time product and sales data.",
+        "Added invoicing, discounts and automatic stock updates to the sales workflow.",
+        "Trained staff to use the system day to day.",
+      ],
+      skills: ["Python", "Tkinter", "SQLite"],
     },
     {
       year: "Aug 2022 – Sep 2022",
       title: "Cybersecurity Intern",
       company: "Femtech IT",
       description: [
-        "Conducted penetration testing and ethical hacking to identify vulnerabilities.",
-        "Performed vulnerability assessments using industry-standard tools.",
-        "Analyzed and secured network traffic through probing and assessments.",
-        "Documented findings and created actionable remediation reports.",
+        "Conducted penetration testing and vulnerability assessments using industry-standard tools.",
+        "Analyzed network traffic and documented findings in actionable remediation reports.",
       ],
-      skills: ["Penetration Testing", "Vulnerability Assessment", "Ethical Hacking", "Linux"],
-    },
-    {
-      year: "Nov 2023 – Dec 2023",
-      title: "Python Developer & Data Analyst Intern",
-      company: "Newland Polytechnic",
-      description: [
-        "Designed and built a Python Tkinter-based inventory management system.",
-        "Integrated SQLite database for real-time product and sales data.",
-        "Enhanced sales workflows with invoicing, discounts, and stock updates.",
-        "Trained staff to use the system effectively.",
-      ],
-      skills: ["Python GUI", "SQlite Database", "Sales Management"],
+      skills: ["Penetration Testing", "Vulnerability Assessment", "Linux"],
     },
   ];
 
@@ -88,15 +81,16 @@ const ExperienceTimeline = () => {
   };
 
   return (
-    <section className="py-16">
+    <section id="experience" className="py-16">
       <div className="max-w-7xl mx-auto px-6">
         <motion.h2
           className="text-2xl lg:text-4xl font-bold text-white text-center lg:text-left mb-6"
           initial={{ opacity: 0, y: -20 }}
-          animate={{ opacity: 1, y: 0 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
           transition={{ duration: 0.8 }}
         >
-          Professional Experience <span className="text-red-500">📚</span>
+          Professional Experience
         </motion.h2>
 
         <motion.div
