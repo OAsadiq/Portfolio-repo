@@ -13,7 +13,7 @@ const projects: Project[] = [
   {
     title: "Porfilr",
     description:
-      "SaaS that lets writers, designers and marketers build a professional portfolio in minutes, with no code. Includes a visual builder, auth, payments and shareable public pages.",
+      "SaaS that lets writers, designers and marketers build a professional portfolio in minutes, with no code. Includes a visual builder, auth, payments and shareable public pages. 8 signups and 32 portfolios published so far.",
     technologies: ["React", "TypeScript", "Supabase", "Stripe", "Vercel"],
     link: "https://porfilr.com/",
     linkLabel: "Visit site",
@@ -36,14 +36,6 @@ const projects: Project[] = [
     link: "https://whitestonepropertyandestates.com/",
     linkLabel: "Visit site",
     image: "/assets/projects/whitestone.jpg",
-  },
-  {
-    title: "Byond",
-    description: "Brand website for a clothing label, with a responsive product showcase and smooth, mobile-first layout.",
-    technologies: ["HTML", "JavaScript", "CSS"],
-    link: "https://byond-brand.vercel.app/",
-    linkLabel: "Visit site",
-    image: "/assets/projects/byond.jpg",
   },
   {
     title: "Jakore Portfolio",
